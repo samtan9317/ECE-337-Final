@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+.buttonDec{
+	background-color:grey;
+	border-radius:15px;
+	float:left;
+	display:inline;
+	margin:5px;
+	padding:5px 10px;
+}
+.clearBoth{
+	clear:both;
+}
+h2 {
+	text-align:center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 
+Allow the user to enter a year to see all data base 
+records that were released in that year or later
+
+Author: Xuesen Tan
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quote</title>
+<link href = "style.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+	<hr>
+	<h2><i>Quote</i></h2>
+	<input class = "buttonDec" type = "button" onclick = "register()" value = "Register">
+	<input class = "buttonDec" type = "button" onclick = "login()" value = "Login">
+	<input class = "buttonDec" type = "button" onclick = "addQuote()" value = "Add Quote">
+	<div class = "clearBoth" id="toChange">QUOTES!!!</div>
+	
+
+	<script>
+		var divToChange = document.getElementById("toChange");
+		function getAllActors(input) {
+
+			var anObj = new XMLHttpRequest();
+			anObj.open("GET", "controller.php", true);
+			anObj.send();
+
+			anObj.onreadystatechange = function() {
+
+			} 
+					
+			}
+		}
+	</script>
+
+</body>
+</html>
